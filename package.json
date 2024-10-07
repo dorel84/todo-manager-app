@@ -1,0 +1,20 @@
+{
+    "name": "todo-manager-app",
+    "version": "1.0.0",
+    "description": "A generic Todo List manager written in TypeScript",
+    "main": "index.js",
+    "scripts": {
+      "start": "tsc && node dist/index.js",
+      "build": "tsc",
+      "dev": "ts-node src/index.ts",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+      "typescript": "^5.0.0",
+      "ts-node": "^10.0.0"
+    }
+  }
+  
